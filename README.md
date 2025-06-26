@@ -367,7 +367,3 @@ This project is developed and maintained by **Omar Hany Darwish**. Feel free to 
 **Happy Analyzing!** 🎉📊🛍️
 
 ---
-
-## 👤 Developer:
-
-Omar Hany Darwish
