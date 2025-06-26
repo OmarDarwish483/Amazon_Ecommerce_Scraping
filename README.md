@@ -1,14 +1,14 @@
-# 🛍️ Amazon Ecommerce Analysis with Gradio & NetworkX
+# 🎉 🛍️ Amazon Ecommerce Analysis with Gradio & NetworkX
 
 ![Amazon Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png)
 
 ## ✨ Introduction
 
-Welcome to the **Amazon Ecommerce Analysis** project! This repository houses a comprehensive Jupyter Notebook designed to analyze Amazon product data. By leveraging various technologies, we present insightful visualizations and analyses focusing on fetching product details, scraping related items, and visualizing data through network graphs and heatmaps.
+Welcome to the **Amazon Ecommerce Analysis** project! This repository is home to a comprehensive Jupyter Notebook designed to provide deep insights into Amazon product data. By leveraging various cutting-edge technologies, we offer insightful visualizations and analyses focusing on fetching product details, scraping related items, and visualizing data through network graphs and heatmaps.
 
 ## 🎯 Purpose
 
-The primary goal of this project is to demonstrate the process of gathering, processing, and analyzing Amazon ecommerce data. We utilize Python libraries such as **pandas**, **networkx**, **matplotlib**, **seaborn**, **plotly**, and **gradio**, along with **Selenium** for web scraping and **Requests** for API interactions.
+The primary goal of this project is to demonstrate the end-to-end process of gathering, processing, and analyzing Amazon ecommerce data. We utilize a suite of powerful Python libraries such as **pandas**, **networkx**, **matplotlib**, **seaborn**, **plotly**, and **gradio**, along with **Selenium** for web scraping and **Requests** for API interactions. This project serves as a valuable resource for anyone interested in ecommerce data analysis.
 
 ## 🌟 Features
 
@@ -342,9 +342,9 @@ This project is developed and maintained by **Omar Hany Darwish**. Feel free to 
 
 ### Omar Hany Darwish
 
-- **GitHub**: [OmarHanyDarwish](https://github.com/OmarHanyDarwish)
-- **LinkedIn**: [Omar Hany Darwish](https://www.linkedin.com/in/omarhanydarwish/)
-- **Email**: omarhanydarwish@example.com
+- **GitHub**: [OmarHanyDarwish](https://github.com/OmarDarwish483)
+- **LinkedIn**: [Omar Hany Darwish](https://www.linkedin.com/in/omardrwish/)
+- **Email**: darwishomar158@gmail.com
 
 ---
 
