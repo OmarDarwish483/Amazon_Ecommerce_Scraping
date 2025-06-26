@@ -1,4 +1,4 @@
-# Amazon Ecommerce Analysis with Gradio & NetworkX 🛍️
+# 🛍️ Amazon Ecommerce Analysis with Gradio & NetworkX
 
 ![Amazon Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png)
 
