@@ -2,19 +2,13 @@
 
 ![Amazon Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png)
 
----
-
 ## ✨ Introduction
 
 Welcome to the **Amazon Ecommerce Analysis** project! This repository contains a Jupyter Notebook designed to analyze Amazon product data, leveraging various technologies to present insightful visualizations and analyses. Our focus is on fetching product details, scraping related items, and visualizing the data through network graphs and heatmaps.
 
----
-
 ## 🌟 Purpose
 
 The primary goal of this project is to demonstrate how to gather, process, and analyze Amazon ecommerce data. We use Python libraries like **pandas**, **networkx**, **matplotlib**, **seaborn**, **plotly**, and **gradio** to achieve this. We also employ **Selenium** for web scraping and **Requests** for API interactions.
-
----
 
 ## 🛠️ Features
 
@@ -23,8 +17,6 @@ The primary goal of this project is to demonstrate how to gather, process, and a
 - **Data Visualization**: Create network graphs, heatmaps, and 3D scatter plots.
 - **Interactive Dashboard**: Provide an interactive interface using Gradio.
 - **Data Cleaning**: Handle missing data and convert prices to USD.
-
----
 
 ## 📦 Installation
 
@@ -35,8 +27,6 @@ To get started, you need to install the required packages. You can do this by ru
 !apt-get update
 !apt-get install -y chromium chromium-driver libnss3 libgconf-2-4
 ```
-
----
 
 ## 🛠️ Usage
 
@@ -138,6 +128,7 @@ Scrape frequently bought together items:
 def scrape_frequently_bought_together(asin, country='com'):
     url = f'https://www.amazon.{country}/dp/{asin}'
     try:
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         driver.get(url)
         time.sleep(5)
 
@@ -151,6 +142,7 @@ def scrape_frequently_bought_together(asin, country='com'):
                     title = rel_elem.text.strip()
                     if title and title not in related_items:
                         related_items.append(title)
+        driver.quit()
         return related_items
     except Exception as e:
         print(f'Error scraping {url}: {e}')
@@ -160,8 +152,6 @@ sample_asin = product_df[product_df['country'] == 'US']['asin'].iloc[0] if not p
 related_items = scrape_frequently_bought_together(sample_asin, 'com')
 print('Frequently Bought Together Items:')
 print(related_items)
-
-driver.quit()
 ```
 
 ### Step 6: Data Analysis and Visualization
@@ -307,8 +297,6 @@ iface = gr.Interface(
 iface.launch(share=False)
 ```
 
----
-
 ## 🖥️ Technologies Used
 
 - **Python**: The primary programming language.
@@ -321,15 +309,11 @@ iface.launch(share=False)
 - **Selenium**: For web scraping.
 - **Requests**: For API interactions.
 
----
-
 ## 🔍 Unique Aspects
 
 - **Comprehensive Data Collection**: Fetches data from multiple Amazon domains.
 - **Interactive Visualizations**: Uses Plotly for interactive 3D scatter plots.
 - **Gradio Interface**: Provides an easy-to-use interface for non-technical users.
-
----
 
 ## 🚀 Possible Improvements
 
@@ -338,25 +322,17 @@ iface.launch(share=False)
 - **Advanced Analysis**: Incorporate more advanced statistical analysis and machine learning models.
 - **User Authentication**: Add user authentication for the Gradio interface.
 
----
-
 ## 📈 Value
 
 This project demonstrates the end-to-end process of data collection, cleaning, analysis, and visualization, making it a valuable resource for anyone interested in ecommerce data analysis. The use of Gradio adds an interactive layer, making the analysis accessible to a broader audience.
-
----
 
 ## 📜 License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
 
----
-
 ## 📞 Contact
 
 For any questions or feedback, please open an issue or reach out to the project maintainers.
-
----
 
 ## 👨‍💻 Developer
 
@@ -365,5 +341,3 @@ This project is developed and maintained by **Omar Hany Darwish**. Feel free to 
 ---
 
 **Happy Analyzing!** 🎉📊🛍️
-
----
