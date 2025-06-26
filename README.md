@@ -1,4 +1,4 @@
-# üõçÔ∏è Amazon Ecommerce Analysis with Gradio & NetworkX
+# 🛍️ Amazon Ecommerce Analysis with Gradio & NetworkX
 
 ![Amazon Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png)
 
@@ -6,11 +6,11 @@
 
 Welcome to the **Amazon Ecommerce Analysis** project! This repository houses a comprehensive Jupyter Notebook designed to analyze Amazon product data. By leveraging various technologies, we present insightful visualizations and analyses focusing on fetching product details, scraping related items, and visualizing data through network graphs and heatmaps.
 
-## üéØ Purpose
+## 🎯 Purpose
 
 The primary goal of this project is to demonstrate the process of gathering, processing, and analyzing Amazon ecommerce data. We utilize Python libraries such as **pandas**, **networkx**, **matplotlib**, **seaborn**, **plotly**, and **gradio**, along with **Selenium** for web scraping and **Requests** for API interactions.
 
-## üõ†Ô∏è Features
+## 🌟 Features
 
 - **Data Collection**: Fetch product data from Amazon using the Rainforest API.
 - **Web Scraping**: Scrape frequently bought together items.
@@ -18,7 +18,7 @@ The primary goal of this project is to demonstrate the process of gathering, pro
 - **Interactive Dashboard**: Provide an interactive interface using Gradio.
 - **Data Cleaning**: Handle missing data and convert prices to USD.
 
-## üì¶ Installation
+## 🛠️ Installation
 
 To get started, you need to install the required packages. You can do this by running the following commands in your Jupyter Notebook or terminal:
 
@@ -28,7 +28,7 @@ To get started, you need to install the required packages. You can do this by ru
 !apt-get install -y chromium chromium-driver libnss3 libgconf-2-4
 ```
 
-## üõ†Ô∏è Usage
+## 🚀 Usage
 
 ### Step 1: Import Libraries
 
@@ -341,6 +341,7 @@ This project is developed and maintained by **Omar Hany Darwish**. Feel free to 
 ## 📊 Contributors
 
 ### Omar Hany Darwish
+
 - **GitHub**: [OmarHanyDarwish](https://github.com/OmarHanyDarwish)
 - **LinkedIn**: [Omar Hany Darwish](https://www.linkedin.com/in/omarhanydarwish/)
 - **Email**: omarhanydarwish@example.com
