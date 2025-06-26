@@ -4,11 +4,11 @@
 
 ## ✨ Introduction
 
-Welcome to the **Amazon Ecommerce Analysis** project! This repository contains a Jupyter Notebook designed to analyze Amazon product data, leveraging various technologies to present insightful visualizations and analyses. Our focus is on fetching product details, scraping related items, and visualizing the data through network graphs and heatmaps.
+Welcome to the **Amazon Ecommerce Analysis** project! This repository houses a comprehensive Jupyter Notebook designed to analyze Amazon product data. By leveraging various technologies, we present insightful visualizations and analyses focusing on fetching product details, scraping related items, and visualizing data through network graphs and heatmaps.
 
-## 🌟 Purpose
+## 🎯 Purpose
 
-The primary goal of this project is to demonstrate how to gather, process, and analyze Amazon ecommerce data. We use Python libraries like **pandas**, **networkx**, **matplotlib**, **seaborn**, **plotly**, and **gradio** to achieve this. We also employ **Selenium** for web scraping and **Requests** for API interactions.
+The primary goal of this project is to demonstrate the process of gathering, processing, and analyzing Amazon ecommerce data. We utilize Python libraries such as **pandas**, **networkx**, **matplotlib**, **seaborn**, **plotly**, and **gradio**, along with **Selenium** for web scraping and **Requests** for API interactions.
 
 ## 🛠️ Features
 
