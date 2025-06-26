@@ -10,13 +10,13 @@ Welcome to the **Amazon Ecommerce Analysis** project! This repository contains a
 
 ---
 
-## 🎯 Purpose
+## 🌟 Purpose
 
 The primary goal of this project is to demonstrate how to gather, process, and analyze Amazon ecommerce data. We use Python libraries like **pandas**, **networkx**, **matplotlib**, **seaborn**, **plotly**, and **gradio** to achieve this. We also employ **Selenium** for web scraping and **Requests** for API interactions.
 
 ---
 
-## 🌟 Features
+## 🛠️ Features
 
 - **Data Collection**: Fetch product data from Amazon using the Rainforest API.
 - **Web Scraping**: Scrape frequently bought together items.
@@ -368,8 +368,6 @@ This project is developed and maintained by **Omar Hany Darwish**. Feel free to 
 
 ---
 
-**👤 Developer:**  \
-Omar Hany Darwish
+## 👤 Developer:
 
----
-**👤 Developer:**  \Omar Hany Darwish
+Omar Hany Darwish
